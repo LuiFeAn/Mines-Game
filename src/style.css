@@ -1,0 +1,61 @@
+
+body{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    gap:30px;
+}
+
+#container{
+    border: 5px solid black;
+}
+
+
+.wall-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wall, .wall-with-bomb{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+#game-status{
+
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding:10px 0px;
+    color:white;
+    height: 100px;
+
+}
+
+.game-over-modal{
+
+    width: 100%;
+    position: absolute;
+    display: flex;
+    color:white;
+    align-items: center;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.829);
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    top:0px;
+    right: 0px;
+
+}
+
+.game-over-modal button {
+    width: 200px;
+    height: 50px;
+}
